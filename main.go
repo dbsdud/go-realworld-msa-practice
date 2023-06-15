@@ -17,5 +17,5 @@ func main() {
 	router.GET("/os", func(c *gin.Context) {
 		c.String(200, runtime.GOOS)
 	})
-	router.Run(":5000")
+	router.Run(":8080")
 }
